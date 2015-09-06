@@ -30,23 +30,13 @@
 					} 			
 				?>
 				<div id="article">
-					<?php the_content(); 
-					the_tags('<p class="post-tags"><span>'.__('Tags:','modality').'</span> ','','</p>');
-					wp_link_pages( array(
-						'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'modality' ) . '</span>',
-						'after'       => '</div>',
-						'link_before' => '<span>',
-						'link_after'  => '</span>',
-					) );
-					
-					//Displays navigation to next/previous post.
-					if ( $modality_theme_options['post_navigation'] == 'below') { get_template_part('post','nav'); }
-				
-					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) {
-						comments_template( '', true );
-					} ?>
-			
+					<?php the_content();
+                        $arrs = get_post_meta( get_the_ID(), '_my_meta_value_key', true );
+                        foreach ($arrs as $question) : ?>
+                        <h1><?php echo $question; ?></h1>
+                    <?php endforeach; ?>
+
+
 				</div><!--article-->
 			</div><!--post-single-->
 				<?php get_template_part('post','sidebar'); ?>

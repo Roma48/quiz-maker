@@ -1,0 +1,49 @@
+input.question {
+    width: 99.9%;
+}
+
+div.answer {
+    width: 95%;
+    padding-left: 5%;
+    display: inline-block;
+    padding-top: 5px;
+    /*float: left;*/
+}
+
+div.answer label {
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+div.answer input.question {
+    float: right;
+    width: 95%;
+}
+
+
+div.answer:nth-child(2n){
+    /*float: right;*/
+    display: inline-block;
+    padding-top: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#some_meta_box_name {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+#new-question {
+    float: right;
+}
+
+.question-box {
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    margin-bottom: 20px
+}

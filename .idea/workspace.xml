@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b32bd203-6c38-4e42-9200-6ddfd2ce6903" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/modality/content-posts.php" afterPath="$PROJECT_DIR$/wp-content/themes/modality/content-posts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/modality/content-single.php" afterPath="$PROJECT_DIR$/wp-content/themes/modality/content-single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/quiz-maker/templates/questions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/quiz-maker/templates/questions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/quiz-maker/quiz-maker.php" afterPath="$PROJECT_DIR$/wp-content/plugins/quiz-maker/quiz-maker.php" />
+    </list>
+    <ignored path="quiz-maker.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="quiz-maker" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="quiz-maker.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/quiz-maker/quiz-maker.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="145" column="76" selection-start="4666" selection-end="4721" vertical-scroll-proportion="-16.592592" vertical-offset="2000" max-vertical-offset="2808">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-posts.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/content-posts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="0" selection-start="2039" selection-end="2039" vertical-scroll-proportion="-27.407408" vertical-offset="322" max-vertical-offset="1170">
+              <folding>
+                <marker date="1441559794581" expanded="true" signature="391:589" placeholder="..." />
+                <marker date="1441559794581" expanded="true" signature="721:918" placeholder="..." />
+                <marker date="1441559794581" expanded="true" signature="988:1050" placeholder="..." />
+                <marker date="1441559794581" expanded="true" signature="1093:1956" placeholder="..." />
+                <marker date="1441559794581" expanded="true" signature="1132:1817" placeholder="..." />
+                <marker date="1441559794581" expanded="true" signature="1163:1788" placeholder="..." />
+                <marker date="1441559794581" expanded="true" signature="1189:1761" placeholder="..." />
+                <marker date="1441559794581" expanded="true" signature="1220:1750" placeholder="..." />
+                <marker date="1441559794581" expanded="true" signature="1546:1593" placeholder="..." />
+                <marker date="1441559794581" expanded="true" signature="1876:1948" placeholder="..." />
+                <marker date="1441559794581" expanded="true" signature="1901:1939" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-single.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/content-single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="0" selection-start="2033" selection-end="2033" vertical-scroll-proportion="-26.925926" vertical-offset="317" max-vertical-offset="1152">
+              <folding>
+                <marker date="1441559834149" expanded="true" signature="70:2006" placeholder="..." />
+                <marker date="1441559834149" expanded="true" signature="94:1850" placeholder="..." />
+                <marker date="1441559834149" expanded="true" signature="117:1826" placeholder="..." />
+                <marker date="1441559834149" expanded="true" signature="126:1749" placeholder="..." />
+                <marker date="1441559834149" expanded="true" signature="428:561" placeholder="..." />
+                <marker date="1441559834149" expanded="true" signature="464:527" placeholder="..." />
+                <marker date="1441559834149" expanded="true" signature="834:893" placeholder="..." />
+                <marker date="1441559834149" expanded="true" signature="976:1725" placeholder="..." />
+                <marker date="1441559834149" expanded="true" signature="1897:1979" placeholder="..." />
+                <marker date="1441559834149" expanded="true" signature="1921:1957" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-tests.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/single-tests.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="47" selection-start="409" selection-end="409" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="504">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-test.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/content-test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="49" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.63773584" vertical-offset="87" max-vertical-offset="972">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="549" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="486">
+              <folding>
+                <marker date="1440694153186" expanded="true" signature="270:409" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1566">
+              <folding>
+                <marker date="1440694153166" expanded="true" signature="170:3440" placeholder="..." />
+                <marker date="1440694153166" expanded="true" signature="209:460" placeholder="..." />
+                <marker date="1440694153166" expanded="true" signature="467:3440" placeholder="..." />
+                <marker date="1440694153166" expanded="true" signature="516:3440" placeholder="..." />
+                <marker date="1440694153166" expanded="false" signature="813:1003" placeholder="..." />
+                <marker date="1440694153166" expanded="true" signature="1092:3393" placeholder="..." />
+                <marker date="1440694153166" expanded="true" signature="1137:3383" placeholder="..." />
+                <marker date="1440694153166" expanded="true" signature="1158:1953" placeholder="..." />
+                <marker date="1440694153166" expanded="true" signature="1992:2405" placeholder="..." />
+                <marker date="1440694153166" expanded="true" signature="2152:2385" placeholder="..." />
+                <marker date="1440694153166" expanded="true" signature="2489:3339" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/plugins/quiz-maker/css/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/quiz-maker/templates/questions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/quiz-maker/templates/question-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/modality/content-tests.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/modality/content-posts.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/modality/content-single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/modality/content-single-tests.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/modality/single-tests.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/quiz-maker/quiz-maker.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/modality/content-test.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <option name="servers">
+      <server host="quiz-maker.local" name="Unnamed" />
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="1002" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quiz-maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/modality" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.Unnamed">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Unnamed">
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.Unnamed" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b32bd203-6c38-4e42-9200-6ddfd2ce6903" name="Default" comment="" />
+      <created>1440695181436</created>
+      <updated>1440695181436</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1280" height="1002" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39932126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/quiz-maker/templates/questions.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/quiz-maker/quiz-maker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="9" selection-start="4537" selection-end="4537" vertical-scroll-proportion="0.0" vertical-offset="2466" max-vertical-offset="2592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/quiz-maker/templates/questions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="1332">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/quiz-maker/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.16802801" vertical-offset="0" max-vertical-offset="857" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/quiz-maker/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/quiz-maker/templates/questions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="27" selection-start="1499" selection-end="1499" vertical-scroll-proportion="-20.074074" vertical-offset="322" max-vertical-offset="1476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/top-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="822">
+          <folding>
+            <marker date="1440694153190" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1440694153190" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1440694153190" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1440694153190" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/title-section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="822">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1566">
+          <folding>
+            <marker date="1440694153166" expanded="true" signature="170:3440" placeholder="..." />
+            <marker date="1440694153166" expanded="true" signature="209:460" placeholder="..." />
+            <marker date="1440694153166" expanded="true" signature="467:3440" placeholder="..." />
+            <marker date="1440694153166" expanded="true" signature="516:3440" placeholder="..." />
+            <marker date="1440694153166" expanded="false" signature="813:1003" placeholder="..." />
+            <marker date="1440694153166" expanded="true" signature="1092:3393" placeholder="..." />
+            <marker date="1440694153166" expanded="true" signature="1137:3383" placeholder="..." />
+            <marker date="1440694153166" expanded="true" signature="1158:1953" placeholder="..." />
+            <marker date="1440694153166" expanded="true" signature="1992:2405" placeholder="..." />
+            <marker date="1440694153166" expanded="true" signature="2152:2385" placeholder="..." />
+            <marker date="1440694153166" expanded="true" signature="2489:3339" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="549" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="486">
+          <folding>
+            <marker date="1440694153186" expanded="true" signature="270:409" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1674">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/quiz-maker/quiz-maker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="76" selection-start="4666" selection-end="4721" vertical-scroll-proportion="-16.592592" vertical-offset="2000" max-vertical-offset="2808">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/content-posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2039" selection-end="2039" vertical-scroll-proportion="-27.407408" vertical-offset="322" max-vertical-offset="1170">
+          <folding>
+            <marker date="1441559794581" expanded="true" signature="391:589" placeholder="..." />
+            <marker date="1441559794581" expanded="true" signature="721:918" placeholder="..." />
+            <marker date="1441559794581" expanded="true" signature="988:1050" placeholder="..." />
+            <marker date="1441559794581" expanded="true" signature="1093:1956" placeholder="..." />
+            <marker date="1441559794581" expanded="true" signature="1132:1817" placeholder="..." />
+            <marker date="1441559794581" expanded="true" signature="1163:1788" placeholder="..." />
+            <marker date="1441559794581" expanded="true" signature="1189:1761" placeholder="..." />
+            <marker date="1441559794581" expanded="true" signature="1220:1750" placeholder="..." />
+            <marker date="1441559794581" expanded="true" signature="1546:1593" placeholder="..." />
+            <marker date="1441559794581" expanded="true" signature="1876:1948" placeholder="..." />
+            <marker date="1441559794581" expanded="true" signature="1901:1939" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/single-tests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="47" selection-start="409" selection-end="409" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/content-single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="0" selection-start="2033" selection-end="2033" vertical-scroll-proportion="-26.925926" vertical-offset="317" max-vertical-offset="1152">
+          <folding>
+            <marker date="1441559834149" expanded="true" signature="70:2006" placeholder="..." />
+            <marker date="1441559834149" expanded="true" signature="94:1850" placeholder="..." />
+            <marker date="1441559834149" expanded="true" signature="117:1826" placeholder="..." />
+            <marker date="1441559834149" expanded="true" signature="126:1749" placeholder="..." />
+            <marker date="1441559834149" expanded="true" signature="428:561" placeholder="..." />
+            <marker date="1441559834149" expanded="true" signature="464:527" placeholder="..." />
+            <marker date="1441559834149" expanded="true" signature="834:893" placeholder="..." />
+            <marker date="1441559834149" expanded="true" signature="976:1725" placeholder="..." />
+            <marker date="1441559834149" expanded="true" signature="1897:1979" placeholder="..." />
+            <marker date="1441559834149" expanded="true" signature="1921:1957" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/modality/content-test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="49" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.63773584" vertical-offset="87" max-vertical-offset="972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
