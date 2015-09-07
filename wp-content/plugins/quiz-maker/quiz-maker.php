@@ -115,10 +115,24 @@ if (!class_exists("QuizMaker")){
             /* OK, its safe for us to save the data now. */
 
             // Sanitize the user input.
-            $mydata = sanitize_text_field( $_POST['myplugin_new_field'] );
+            $i = 0;
+            $j = 0;
+            $mydata = array();
+            while ($i == 0) {
+               if (isset($_POST['question-'.$j])){
+                   $mydata[$j] = $_POST['question-'.$j];
+                   $j++;
+               } else {
+                   $i++;
+               }
+            }
+
+            $str_arr = implode($mydata);
+
+//            $mydata = sanitize_text_field( $_POST['myplugin_new_field'] );
 
             // Update the meta field.
-            update_post_meta( $post_id, '_my_meta_value_key', $mydata );
+            update_post_meta( $post_id, 'answers', $str_arr );
         }
 
 
@@ -133,7 +147,7 @@ if (!class_exists("QuizMaker")){
             wp_nonce_field( 'myplugin_inner_custom_box', 'myplugin_inner_custom_box_nonce' );
 
             // Use get_post_meta to retrieve an existing value from the database.
-            $value = get_post_meta( $post->ID, '_my_meta_value_key', true );
+            $value = get_post_meta( $post->ID, 'answers', true );
 
             include_once('templates/questions.php');
             // Display the form, using the current value.

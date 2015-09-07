@@ -33,7 +33,8 @@
     }
 
 </style>
-<?php $i = 1; ?>
+
+<?php $i = 0; ?>
 
 <div id="question-<?php echo $i; ?>" class="question-box">
     <h3><?php echo $i; ?> вопрос</h3>
@@ -41,22 +42,22 @@
 
     <div class="answer">
         <label for="question-<?php echo $i; ?>"><?php echo $i; ?> ответ</label>
-        <input type="text" class="question" name="question-<?php echo $i; ?>" value=" <?php echo esc_attr($value); ?>">
+        <input type="text" class="question" name="answer-<?php echo $i; ?>" value=" <?php echo esc_attr($value); ?>">
     </div>
 
     <div class="answer">
         <label for="question-<?php echo $i; ?>"><?php echo $i; ?> ответ</label>
-        <input type="text" class="question" name="question-<?php echo $i; ?>" value="<?php echo esc_attr($value); ?>">
+        <input type="text" class="question" name="answer-<?php echo $i; ?>" value="<?php echo esc_attr($value); ?>">
     </div>
 
     <div class="answer">
         <label for="question-<?php echo $i; ?>"><?php echo $i; ?> ответ</label>
-        <input type="text" class="question" name="question-<?php echo $i; ?>" value=" <?php echo esc_attr($value); ?>">
+        <input type="text" class="question" name="answer-<?php echo $i; ?>" value=" <?php echo esc_attr($value); ?>">
     </div>
 
     <div class="answer">
         <label for="question-<?php echo $i; ?>"><?php echo $i; ?> ответ</label>
-        <input type="text" class="question" name="question-<?php echo $i; ?>" value=" <?php echo esc_attr($value); ?>">
+        <input type="text" class="question" name="answer-<?php echo $i; ?>" value=" <?php echo esc_attr($value); ?>">
     </div>
 
 </div>
