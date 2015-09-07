@@ -34,15 +34,14 @@ if (!class_exists("QuizMaker")){
 
         function __construct(){
             add_action( 'init', array($this, 'create_posttype'));
-            $this->add_fields();
             add_action( 'add_meta_boxes', array( $this, 'add_meta_box' ) );
             add_action( 'save_post', array( $this, 'save' ) );
-            $this->name = 'Вопрос';
+            add_action( 'admin_enqueue_scripts', array( $this, 'register_plugin_styles' ) );
         }
 
         function create_posttype()
         {
-            register_post_type('Tests', array(
+            register_post_type('tests', array(
                     'labels' => array(
                         'name' => __('Тесты'),
                         'singular_name' => __('Тест')
@@ -63,7 +62,7 @@ if (!class_exists("QuizMaker")){
             if ( in_array( $post_type , $post_types )) {
                 add_meta_box(
                     'some_meta_box_name'
-                    ,__( 'Вопросы', 'myplugin_textdomain' )
+                    ,'Вопросы'
                     ,array( $this, 'render_meta_box_content' )
                     ,$post_type
                     ,'advanced'
@@ -116,23 +115,20 @@ if (!class_exists("QuizMaker")){
 
             // Sanitize the user input.
             $i = 0;
-            $j = 0;
+            $j = 1;
             $mydata = array();
             while ($i == 0) {
-               if (isset($_POST['question-'.$j])){
-                   $mydata[$j] = $_POST['question-'.$j];
-                   $j++;
-               } else {
-                   $i++;
-               }
+                if (isset($_POST['question-'.$j])){
+
+                    $mydata[$j] = $_POST['question-'.$j];
+                    $j++;
+                } else {
+                    $i = 1;
+                }
             }
 
-            $str_arr = implode($mydata);
-
-//            $mydata = sanitize_text_field( $_POST['myplugin_new_field'] );
-
             // Update the meta field.
-            update_post_meta( $post_id, 'answers', $str_arr );
+            update_post_meta( $post_id, '_my_meta_value_key', $mydata );
         }
 
 
@@ -147,20 +143,16 @@ if (!class_exists("QuizMaker")){
             wp_nonce_field( 'myplugin_inner_custom_box', 'myplugin_inner_custom_box_nonce' );
 
             // Use get_post_meta to retrieve an existing value from the database.
-            $value = get_post_meta( $post->ID, 'answers', true );
+            $value = get_post_meta( $post->ID, '_my_meta_value_key', true );
 
             include_once('templates/questions.php');
-            // Display the form, using the current value.
-//            echo '<label for="myplugin_new_field">';
-//            _e( 'Description for this field', 'myplugin_textdomain' );
-//            echo '</label> ';
-//            echo '<input type="text" id="myplugin_new_field" name="myplugin_new_field"';
-//            echo ' value="' . esc_attr( $value ) . '" size="25" />';
         }
 
-        function add_fields(){
-
+        public function register_plugin_styles() {
+            wp_register_style( 'quiz-admin-style', plugins_url( 'quiz-maker/css/style.css' ) );
+            wp_enqueue_style( 'quiz-admin-style' );
         }
+
     }
 
     $create_post_type = new QuizMaker();
