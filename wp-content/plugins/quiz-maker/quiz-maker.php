@@ -120,7 +120,18 @@ if (!class_exists("QuizMaker")){
             while ($i == 0) {
                 if (isset($_POST['question-'.$j])){
 
-                    $mydata[$j] = $_POST['question-'.$j];
+                    $mydata[$j] = array(
+                        'question' => $_POST['question-'.$j],
+                        'answers' => array(),
+                        'answer-right' => $_POST['answer-right-'.$j]
+                    );
+
+                    for ($k = 1; $k < 5; $k++){
+                        if (isset($_POST['answer-'.$j.'-'.$k])) {
+                            $mydata[$j]['answers'][$k] = $_POST['answer-' . $j . '-' . $k];
+                        }
+                    }
+
                     $j++;
                 } else {
                     $i = 1;

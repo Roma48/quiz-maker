@@ -23,6 +23,7 @@ $modality_slider_query = new WP_Query(
 	<ul>
 	<?php while ( $modality_slider_query->have_posts() ): $modality_slider_query->the_post(); ?>
 		<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+
 		<?php if ($slider_cat !='') { ?>
 			<li style="background: url(<?php echo esc_url($image[0]); ?>) 50% 0 no-repeat;">
 		<?php } else { ?>

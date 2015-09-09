@@ -18,9 +18,8 @@ div.answer label {
 
 div.answer input.question {
     float: right;
-    width: 95%;
+    width: 98%;
 }
-
 
 div.answer:nth-child(2n){
     /*float: right;*/
@@ -47,3 +46,12 @@ label {
     padding: 10px;
     margin-bottom: 20px
 }
+
+.answers-list {
+    margin-top: 10px;
+}
+
+.answers-list label {
+    padding-top: 0 !important;
+}
+

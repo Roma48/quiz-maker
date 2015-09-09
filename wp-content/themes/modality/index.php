@@ -18,7 +18,7 @@ get_header(); ?>
 		
 			if ($modality_theme_options['image_slider_on'] == '1') {
 					
-				 modality_slider(); 
+				 modality_slider();
 				
 			}
 

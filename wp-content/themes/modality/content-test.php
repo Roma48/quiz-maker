@@ -32,9 +32,18 @@
 				<div id="article">
 					<?php the_content();
                         $arrs = get_post_meta( get_the_ID(), '_my_meta_value_key', true );
+						$j = 1;
                         foreach ($arrs as $question) : ?>
-                        <h1><?php echo $question; ?></h1>
-                    <?php endforeach; ?>
+							<div class="question-box">
+								<h2><?php echo $question['question']; ?></h2>
+								<?php for ($i = 1; $i < 5; $i++): ?>
+									<div class="answer">
+										<input type="radio" name="answer-<?php echo $j; ?>">
+										<label><?php echo $question['answers'][$i]; ?></label>
+									</div>
+								<?php endfor; ?>
+							</div>
+                    <?php $j++; endforeach; ?>
 
 
 				</div><!--article-->

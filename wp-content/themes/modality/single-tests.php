@@ -15,7 +15,6 @@ get_header(); ?>
 
         endwhile;
         ?>
-        <h1>hello</h1>
     </div><!--main-->
 <?php if ($modality_theme_options['social_section_on'] == '1') {
     get_template_part( 'social', 'section' );
